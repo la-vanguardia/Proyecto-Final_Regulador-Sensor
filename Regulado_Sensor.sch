@@ -17,13 +17,13 @@ $EndDescr
 $Comp
 L Connector:Conn_01x02_Female JSensorV1
 U 1 1 5DDD8FC0
-P 8650 3550
-F 0 "JSensorV1" H 8544 3225 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 8544 3316 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8650 3550 50  0001 C CNN
-F 3 "~" H 8650 3550 50  0001 C CNN
-	1    8650 3550
-	-1   0    0    1   
+P 8650 3450
+F 0 "JSensorV1" H 8544 3125 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 8544 3216 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8650 3450 50  0001 C CNN
+F 3 "~" H 8650 3450 50  0001 C CNN
+	1    8650 3450
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Female JDatos1
@@ -260,12 +260,8 @@ $EndComp
 Wire Wire Line
 	7700 3000 7300 3000
 Wire Wire Line
-	8850 3450 8850 3000
-Wire Wire Line
 	8850 3000 8400 3000
 Connection ~ 7700 3000
-Wire Wire Line
-	8850 3550 8850 4150
 Wire Wire Line
 	9300 3550 9300 3900
 Wire Wire Line
@@ -428,4 +424,8 @@ Wire Wire Line
 Wire Wire Line
 	6950 4150 8400 4150
 Connection ~ 8400 4150
+Wire Wire Line
+	8850 3450 8850 3000
+Wire Wire Line
+	8850 3550 8850 4150
 $EndSCHEMATC
